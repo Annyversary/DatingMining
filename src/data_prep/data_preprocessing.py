@@ -14,7 +14,7 @@ which is considered best practice to prevent data leakage between training and v
 
 This module maintains a consistent structure: it defines preprocessing functions that are
 invoked during cross-validation, accompanied by corresponding unit tests located in
-`unittests/Unittests_Data_Preprocessing.ipynb`.
+`unittests\data_prep`.
 """
 
 def handle_missing_categorical(X_train, X_test):
